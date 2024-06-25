@@ -1,9 +1,15 @@
+body {
+    background: linear-gradient(90deg, rgba(0,191,255,1) 0%, rgba(12,115,166,1) 54%);
+
+}
+
 .buttons button {
     border: none;
     width: 150px; 
     height: 50px;
     border-radius: 10px;
     cursor: pointer;
+    margin-bottom: 50px;;
 }
 
 .buttons button:hover {
@@ -23,7 +29,7 @@
     background-color: #71b6fd;
 }
 
-tr, td {
+tr, td { 
     border: 1px solid black;
 }
 
